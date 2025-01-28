@@ -1,6 +1,7 @@
 import axios from "axios"
 import { app } from "./firebase";
-export const API_URL = "http://localhost:8800";
+// export const API_URL = "http://localhost:8800";
+export const API_URL = "https://blogging-api-iota.vercel.app";
 
 export const getGoogleSignUp = async (accessToken) => {
     try {
